@@ -1,0 +1,10 @@
+.gradle
+build/
+
+.idea/
+!.idea/modules/
+!.idea/compiler.xml
+!.idea/gradle.xml
+!.idea/kotlinc.xml
+!.idea/ktor.xml
+!.idea/vcs.xml

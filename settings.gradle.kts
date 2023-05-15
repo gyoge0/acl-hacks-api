@@ -1,1 +1,1 @@
-rootProject.name = "aclhacks23-api"
+rootProject.name = "acl-hacks-api"

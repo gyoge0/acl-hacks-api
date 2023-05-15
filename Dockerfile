@@ -4,7 +4,8 @@ WORKDIR /builder
 
 COPY ./gradle/libs.versions.toml ./gradle/
 COPY ./gradle.properties .
-COPY ./*.gradle.kts .
+COPY ./settings.gradle.kts .
+COPY ./build.gradle.kts .
 RUN gradle compileKotlin
 
 COPY ./src/ ./src/

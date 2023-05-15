@@ -14,7 +14,7 @@ RUN gradle shadowJar
 FROM amazoncorretto:17-alpine as run
 
 WORKDIR /run
-COPY --from=builder /builder/build/libs/aclhacks23-api-all.jar ./app.jar
+COPY --from=builder /builder/build/libs/acl-hacks-api-all.jar ./app.jar
 
 EXPOSE 5000
 ENTRYPOINT ["java", "-jar", "app.jar"]

@@ -8,3 +8,8 @@ build/
 !.idea/kotlinc.xml
 !.idea/ktor.xml
 !.idea/vcs.xml
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

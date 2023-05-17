@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+      {
+          "name": "acl-hacks-api",
+          "image": "ghcr.io/gyoge0/acl-hacks-api",
+          "essential": true,
+          "memory": 500,
+          "portMappings": [
+            {
+              "hostPort": 80,
+              "containerPort": 5000
+            }
+          ]
+      }
+  ]
+}

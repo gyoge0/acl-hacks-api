@@ -1,6 +1,7 @@
 package com.gyoge
 
-import com.gyoge.forms.classList
+import com.gyoge.advanced.classList
+import com.gyoge.advanced.pathVariables
 import com.gyoge.messages.complexMessages
 import com.gyoge.messages.deletableMessages
 import com.gyoge.messages.simpleMessages
@@ -28,5 +29,6 @@ fun Application.configureRouting() {
         deletableMessages()
         complexMessages()
         classList()
+        pathVariables()
     }
 }
